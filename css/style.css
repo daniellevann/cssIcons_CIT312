@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v5/7cHrv4kjgoGqM7E3b8s8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXooxW4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/delagothicone/v1/hESp6XxvMDRA-2eD0lXpDa6QkBAGRQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lobster/v23/neILzCirqoswsqX9_oU.ttf) format('truetype');
+}
+* {
+  margin: 0;
+}
+h1 {
+  margin: 10px;
+  position: fixed;
+}
+.font1 {
+  font-family: 'Dela Gothic One', cursive;
+}
+.font2 {
+  font-family: 'Bebas Neue', cursive;
+}
+.font3 {
+  font-family: 'Lobster', cursive;
+}
+.dropdown {
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-family: 'Roboto Mono', monospace;
+}
+.dropdown a {
+  text-decoration: none;
+  color: black;
+  padding-right: 20px;
+}
+.dropdown a:hover {
+  color: pink;
+}
+.dropbtn {
+  display: none;
+}
+.moreSpace {
+  padding: 200px;
+}
+footer {
+  text-align: center;
+}
+footer li {
+  list-style-type: none;
+  display: inline;
+}
+footer li a {
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  .dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: none;
+    display: block;
+  }
+  .dropdown {
+    position: fixed;
+    display: inline-block;
+    float: right;
+    right: 0;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: pink;
+  }
+  footer {
+    text-align: center;
+  }
+  footer li {
+    list-style-type: none;
+    display: block;
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
